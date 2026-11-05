@@ -4,7 +4,9 @@ A real-time software 3D ring animation rendered as dense ASCII in a 1100×1000 w
 
 ## Run
 
-Requires Python 3.10 or newer.
+On Windows, double-click `start.cmd`. It checks for Python 3.10 or newer, offers to install Python 3.12 with `winget` if needed, creates a project-local virtual environment, installs the packages from `requirements.txt`, and launches the animation. The first launch needs an internet connection. If Python is installed during that launch but Windows has not refreshed its environment yet, run `start.cmd` again.
+
+To start it manually, use Python 3.10 or newer and run:
 
 ```powershell
 python -m pip install -r requirements.txt
